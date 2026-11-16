@@ -1,0 +1,11 @@
+venv/
+logs/
+__pycache__/
+build/
+dist/
+*.spec
+*.pyc
+*.bat
+fix_logo.py
+make_icon.py
+logo.png
