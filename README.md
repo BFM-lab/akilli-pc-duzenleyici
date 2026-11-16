@@ -23,7 +23,7 @@ Windows 10 ve 11 için Python & CustomTkinter ile geliştirilmiş; dosya düzenl
 ## İndirme ve Kurulumsuz Kullanım (.exe)
 
 Python kurmanıza gerek kalmadan doğrudan kullanmak için:
-1. Sağ taraftaki **Releases** bölümünden **`AkilliPCDuzenleyici.exe`** dosyasını indirin.
+1. [Releases sayfasından](https://github.com/BFM-lab/akilli-pc-duzenleyici/releases) **`AkilliPCDuzenleyici.exe`** dosyasını indirin.
 2. Çift tıklayarak çalıştırın.
 
 > **Windows SmartScreen Notu:** Uygulama bireysel olarak geliştirildiği ve ücretli dijital yayıncı sertifikası bulunmadığı için Windows ilk açılışta *"Bilinmeyen Yayıncı"* uyarısı gösterebilir. **"Ek bilgi > Yine de çalıştır"** seçeneğiyle açabilirsiniz. Tüm kaynak kodu incelemeniz için bu depoda açıktır.
@@ -33,10 +33,9 @@ Python kurmanıza gerek kalmadan doğrudan kullanmak için:
 ## Geliştiriciler İçin Kaynak Koddan Çalıştırma
 
 ```bash
-git clone https://github.com/KULLANICI_ADIN/akilli-pc-duzenleyici.git
+git clone https://github.com/BFM-lab/akilli-pc-duzenleyici.git
 cd akilli-pc-duzenleyici
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
-
